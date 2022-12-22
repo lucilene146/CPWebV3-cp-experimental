@@ -1,0 +1,213 @@
+.lista
+{
+	margin: 0px auto;
+	width: 980px;
+}
+
+.lista #esquerda
+{
+	min-width: 100px;
+	min-height: 300px;
+	float: left;
+	margin: 0px 5px 0px 0px;
+}
+
+.lista #esquerda ul
+{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.lista #esquerda ul li
+{
+	height: 20px;
+	line-height:20px;
+	border-top: 1px dashed #ccc;
+}
+
+.lista #esquerda a
+{
+	display: block;
+	text-decoration: none;
+	color: #333333;
+}
+
+.lista #esquerda a:hover
+{
+	color: red;
+	background-color: #acc4e6;
+}
+
+.lista #direita
+{
+	min-height: 300px;
+}
+
+.lista #topo
+{
+	margin: 3px auto;
+	background-color: #acc4e6;
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+.lista #topo #botoes_lista
+{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	min-width: 100px;
+}
+.lista #topo #botoes_lista button
+{
+	margin: 8px 5px 0px 5px;
+}
+
+.lista #topo #paginas
+{
+	float: left;
+	min-width: 400px;
+	height: 40px;
+	margin: 0px 0px 0px 20px;
+}
+
+.lista #topo #paginas .pagAtiva
+{
+	width: 120px;
+}
+
+.lista #topo #paginas .pagAtiva input
+{
+	width: 30px;
+	text-align: center;
+}
+
+.lista #topo #paginas .pagAtiva button
+{
+	width: 30px;
+}
+
+.lista #topo #paginas ul,
+.lista #topo #paginas .pags
+{
+	margin: 0px auto;
+	padding: 0px;
+	list-style: none;
+}
+
+.lista #topo #paginas ul li,
+.lista #topo #paginas .pags li
+{
+	display: block;
+	float: left;
+	width: 30px;
+	text-align: center;
+}
+
+.lista #topo #paginas ul li:hover,
+.lista #topo #paginas .pags li:hover
+{
+	background-color: #c2c493;
+}
+
+.lista #topo #paginas ul a,
+.lista #topo #paginas .pags a
+{
+	text-decoration: none;
+	color: #003d4c;
+}
+
+.lista #topo #paginas ul a:hover,
+.lista #topo #paginas .pags a:hover
+{
+	color: red;
+}
+
+.lista #topo #pesquisa
+{
+	float: right;
+	height: 40px;
+	margin: 0px 5px 0px 0px;
+}
+
+.lista .linhas
+{
+	margin: 0px 0px 0px 0px;
+	border-top: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+}
+.lista .linhas th
+{
+	border-left: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+}
+
+.lista th a.asc:after {
+	content: ' ⇣';
+	color: red;
+}
+.lista th a.desc:after {
+	content: ' ⇡';
+	color: red;
+}
+
+.lista .linhas th a
+{
+	display: block;
+	text-decoration: none;
+	color: #000;
+	border: 1px solid #fff;
+}
+
+.lista .linhas th a:hover
+{
+	background-color: #acc4e6;
+}
+
+.lista .linhas td
+{
+	padding: 1px;
+	border-left: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	font-size: 10px;
+	font-family: verdana;
+}
+
+.lista_linha_ativa
+{
+	background-color: #acc4e6;
+	cursor: pointer;
+}
+
+.lista .listaRodape
+{
+	margin: 3px auto;
+	background-color: #cdddf3;
+	border-top: 1px solid #757f8c;
+	color: #3e444d;
+	font-size: 10px;
+	text-align: right;
+	padding: 5px 0px 5px 0px;
+	clear: both;
+}
+
+.lista  #pesquisa #inPesquisa
+{
+	width: 130px;
+}
+
+.lista #pesquisa a
+{
+	text-decoration: none;
+	color: #003d4c;
+}
+
+.lista #msgLista
+{
+	float: left;
+	padding: 0px 0px 0px 10px;
+}

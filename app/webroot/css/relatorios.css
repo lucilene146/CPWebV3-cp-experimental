@@ -1,0 +1,112 @@
+.lista
+{
+	margin: 0px auto;
+	width: 90%;
+}
+
+#menu_relatorios
+{
+	float: left;
+	clear: both;
+	width: 200px;
+	margin: 10px 0px 0px 8px;
+	z-index: 999;
+}
+
+#menu_relatorios a
+{
+	text-decoration: none;
+	color: #333;
+}
+
+#menu_relatorios a:hover
+{
+	text-decoration: normal;
+	color: green;
+}
+
+#menu_relatorios span
+{
+	font-weight: bold;
+}
+
+#titulo
+{
+	position: absolute;
+	margin: 0px 0px 0px 10px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	/*background-color: #ddd;*/
+}
+
+#filtro
+{
+	margin: 10px auto;
+	margin-left: 450px;
+	width: 500px;
+	height: 200px;
+	border: 1px solid #ddd;
+	padding: 10px 0px 10px 0px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#filtro #ordem,
+#filtro #campos
+{
+	margin: 0px 0px 0px 0px;
+}
+
+#filtro #ordem ul,
+#filtro #campos ul
+{
+	list-style: none;
+}
+
+#filtro #ordem label,
+#filtro #campos label
+{
+	display: block;
+	float: left;
+	width: 130px;
+	text-align: right;
+	line-height: 21px;
+	margin: 0px 5px 0px 0px;
+}
+
+#filtro #botoes
+{
+	text-align: center;
+}
+
+#filtro #botoes button
+{
+	width: 120px;
+}
+
+#lista table th
+{
+	background-color: #ddd;
+}
+
+#combo
+{
+	float: right;
+	margin: 0px 10px 0px 0px;
+}
+#combo label
+{
+	margin: 0px 10px 0px 0px;
+}
+
+#combo select
+{
+	width: 300px;
+}
+
+.relAlerta
+{
+	color: red;
+	font-weight: bold;
+}

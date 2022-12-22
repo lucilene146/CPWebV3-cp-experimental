@@ -1,0 +1,401 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family: verdana;
+	font-size: 12px;
+}
+
+select
+{
+	height: 24px;
+}
+
+#flashMessage
+{
+	position: absolute;
+	right: 220px;
+	margin: -12px 0px 0px 0px;
+}
+
+.alertaFlashMessage
+{
+	color: red;
+}
+
+.alertaOkFlashMessage
+{
+	color: green;
+}
+
+#cabecalho
+{
+	background: #5483dd url('../img/fundo2.png') repeat left;
+	height: 60px;
+	line-height: 40px;
+	border-bottom: 2px solid #3f4757;
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+}
+#cabecalho a
+{
+	margin: 0px 0px 0px 0px;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	/*letter-spacing: 2px;*/
+}
+#cabecalho #texto_va a
+{
+	font-weight: bold;
+}
+#cabecalho #texto_va a:hover
+{
+	color: red;
+}
+
+#cabecalho .tituloCab3
+{
+	color: #9fed9f;
+}
+
+#cabecalho #logo_va
+{
+	background: url('../img/logo_va.png') no-repeat left;
+	width: 55px;
+	height: 30px;
+	float: left;
+	margin:  5px 0px 0px 8px;
+}
+#cabecalho #texto_va
+{
+	margin: 0px 0px 0px 90px;
+}
+#cabecalho #userOn
+{
+	margin: 29px 10px 0px 0px;
+	position: absolute;
+	right: 5px;
+	color: #fff;
+}
+#cabecalho #userOn a
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 11px;
+}
+#cabecalho #userOn a:hover
+{
+	color: red;
+}
+#cabecalho #menu
+{
+	position: absolute;
+	top: 40px;
+	width: auto;
+}
+#cabecalho #menu a
+{
+	font-size: 12px;
+}
+#cabecalho #menu li li a
+{
+	color: #333;
+}
+
+.cake-sql-log
+{
+	font-size: 12px;
+	margin-top: 50px;
+	width: 98%;
+	margin: 0px auto;
+}
+
+.cake-sql-log tr th
+{
+	background-color: #ddd;
+	border: 1px solid #000;
+}
+
+.cake-sql-log tr td
+{
+	border-bottom: 1px dashed #aaa;
+}
+
+#footer
+{
+	clear: both;
+	text-align: right;
+}
+
+#logoCake
+{
+	right: 18px;
+	position: absolute;
+	top: 5px;
+}
+
+#logo
+{
+	background: url('../img/logo.png') no-repeat center;
+	width: 400px;
+	height: 400px;
+	margin: 10px auto;
+}
+
+.buscaRapidaResposta,
+#pesquisa #rePesquisa
+{
+	position: absolute;
+	z-index: 999;
+	background-color: #cad8ec;
+	min-width: 550px;
+	padding: 0px 0px 0px 3px;
+	line-height: 24px;
+	border: 2px solid #8994a6;
+	display: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+#pesquisa select
+{
+	min-width: 100px;
+}
+
+.buscaRapidaResposta ul,
+#pesquisa #rePesquisa ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.buscaRapidaResposta ul li,
+#pesquisa #rePesquisa ul li
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* busca rápida */
+.buscaRapidaResposta
+{
+	text-align: left;
+}
+.buscaRapidaResposta ul li
+{
+	text-decoration: none;
+	color: #333;
+}
+#pesquisa #rePesquisa ul li:hover,
+.buscaRapidaResposta ul li:hover
+{
+	color: red;
+	cursor: pointer;
+	background-color: #f9f9d8;
+}
+.inBuscaRapidaEdicao
+{
+	margin: -3.8px 0px 0px 0px;
+	width: 300px;
+	text-transform: uppercase;
+	/*display: none;*/
+}
+
+/* sub formulário */
+#subFormApenso,
+#sub_form
+{
+	margin: 50px 0px 0px 135px;
+	height: 150px;
+	width: 596px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border: 1px solid #bbb;
+	padding: 5px;
+	clear: both;
+	overflow: auto;
+}
+
+#sub_form #sub_resposta
+{
+	float: right;
+}
+
+#sub_form h3
+{
+	color: #333;
+}
+
+#sub_form #sub_botoes
+{
+	float: left;
+}
+
+#sub_form table
+{
+	width: 100%;
+	/*border-bottom: 1px solid #333;
+	border-left: 1px solid #333;*/
+	padding: 0px;
+	margin: 0px;
+}
+
+#sub_form #tr00
+{
+	height: 40px;
+}
+
+#sub_form table tr th
+{
+	border: 1px solid #bbbbbb;
+}
+#sub_form table th
+{
+	background-color: #acc4e6;
+	color: #333;
+}
+
+#sub_form table input
+{
+	width: 80%;
+}
+
+#sub_form #telMais
+{
+	float: right;
+}
+
+#sub_form h3
+{
+	float: left;
+	margin: 0px 30px 0px 0px;
+}
+
+#sub_form .bt_sub_form
+{
+	width: 80px;
+}
+
+/* contador */
+#contador
+{
+	width: 300px;
+	line-height: 24px;
+	float: right;
+	margin: 0px 110px 0px 0px;
+}
+
+#contador #cTxt,
+#contador #regressivo
+{
+	font-size: 10px;
+}
+
+#contador #cTxt
+{
+	float: left;
+}
+
+.btEdicao
+{
+	width: 90px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	color: #000;
+	height: 24px;
+	line-height: 20px;
+}
+.btEdicao:hover
+{
+	color: green;
+}
+
+#btEdicaoNovo
+{
+	background: #cacaca url('../img/bt_novo.png') no-repeat 5px;
+}
+
+#btApensoSalvar,
+#btEdicaoSalvar
+{
+	background: #cacaca url('../img/bt_salvar.png') no-repeat 5px;
+}
+
+#btEdicaoListar
+{
+	background: #cacaca url('../img/bt_listar.png') no-repeat 5px;
+}
+
+#btEdicaoExcluir
+{
+	background: #cacaca url('../img/bt_excluir.png') no-repeat 5px;
+}
+#btEdicaoExcluir:hover
+{
+	color: red;
+}
+
+#btEdicaoAtualizar
+{
+	width: 110px;
+	background: #cacaca url('../img/bt_atualizar.png') no-repeat 5px;
+}
+
+#btEdicaoFechar
+{
+	background: #cacaca url('../img/bt_fechar.png') no-repeat 5px;
+}
+
+#btEdicaoImprimir
+{
+	width: 110px;
+	background: #cacaca url('../img/bt_imprimir.png') no-repeat 5px;
+}
+
+.menu_modulos ul li
+{
+	width: 500px;
+}
+
+#alerta
+{
+	display: none;
+}
+
+#dialogo
+{
+	background-color: #000;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 99;
+	text-align: center;
+	opacity: .7;
+}
+
+#texto
+{
+	font-weight: bold;
+	padding: 5px;
+	margin: 180px auto;
+	min-height: 150px;
+	width: 50%;
+	border: 6px solid red;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	background-color: #fff;
+	text-align: left;
+	z-index:999;
+	position: absolute;
+	left: 25%;
+}
+
+#texto a
+{
+	text-decoration: none;
+	color: #000;
+}

@@ -1,0 +1,135 @@
+a
+{
+	text-decoration: none;
+	color: #000;
+}
+.txt_sql,
+.sql_obs,
+.sql_obs2
+{
+	width: 800px;
+	margin: 20px auto;
+}
+
+.sql_tit
+{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.txt_sql
+{
+	background-color: #c1cee8;
+	padding: 15px 5px 15px 15px;
+	border: 1px solid #73819d;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+.sql_obs
+{
+	text-align: center;
+	color: red;
+}
+
+.sql_obs2
+{
+	color: red;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.sql_obs3
+{
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+}
+
+#instala_ok
+{
+	line-height: 40px;
+	text-align: center;
+}
+
+#instala_ok,
+#instala
+{
+	margin: 30px auto;
+	width: 800px;
+	border: 1px solid #73819d;
+	padding: 5px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+#instala ul
+{
+	margin: 0px auto;
+	padding: 0px;
+	list-style: none;
+	width: 500px;
+}
+
+#instala ul li
+{
+	display: block;
+	margin-bottom: 3px;
+}
+
+#instala label
+{
+	display: block;
+	float: left;
+	width: 150px;
+	text-align: right;
+	margin-right: 5px;
+}
+
+#instala .txt_topo
+{
+	height: 40px;
+	text-align: center;
+}
+
+#instala .txt_obs
+{
+	height: 60px;
+	font-size: 12px;
+	font-style: italic;
+}
+
+#instala .txt_obs1
+{
+	margin: 10px 0px 0px 0px;
+}
+
+#instala .txt_obs2
+{
+	margin: 10px 0px 0px 10px;
+	color: red;
+}
+
+#instala .txt_msg
+{
+	margin: 10px 0px 0px 10px;
+	color: green;
+	font-weight: bold;
+}
+
+#instala .txt_erro
+{
+	margin: 10px 0px 0px 10px;
+	color: red;
+	font-weight: bold;
+}
+
+#aguarde
+{
+	display: none;
+	margin: 0px auto;
+	width:100px;
+	color: red;
+	font-weight: bold;
+	font-style: italic;
+}

@@ -1,0 +1,46 @@
+#listaProcessos
+{
+	width: 98%;
+}
+
+#edicao #formEdicao
+{
+	width: 1200px;
+}
+
+#edicao .inEdicao
+{
+	width: 200px;
+	display:block;
+	text-align: right;
+	margin-right: 5px;
+	float: left;
+	line-height: 24px;
+	position: relative;
+	/*background-color: #ddd;*/
+}
+
+#edicao #divProcessoOrgaoId
+{
+	width: 265px;
+}
+
+.numero_td
+{
+	text-align: center;
+}
+
+#edicao .inBuscaRapidaEdicao
+{
+	width: 175px;
+}
+
+#edicao #sub_form
+{
+	width: 880px;
+}
+
+#edicao #subFormApenso
+{
+	width: 880px;
+}

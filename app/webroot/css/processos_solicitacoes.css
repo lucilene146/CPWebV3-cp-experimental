@@ -1,0 +1,17 @@
+#listaProcessosSolicitacoes
+{
+	width: 98%;
+}
+
+
+#divProcessoSolicitacaoTipoParecerId,
+#divProcessoSolicitacaoTipoPeticaoId,
+#divProcessoSolicitacaoComplexidadeId
+{
+	display: none;
+}
+
+.edicaoSelect
+{
+	width: 400px;
+}

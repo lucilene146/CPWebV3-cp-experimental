@@ -1,0 +1,71 @@
+#listaContatos
+{
+	width: 98%;
+}
+
+#divContatoTipoContato
+{
+	/*background-color: #ddd;*/
+	width: 360px;
+	text-align: right;
+	line-height: 24px;
+}
+
+#divContatoTipoContato label
+{
+	margin: 0px 0px 0px 5px;
+}
+
+#divContatoTipoContato input
+{
+	margin: 0px 0px 0px 20px;
+}
+
+#divContatoCnpj
+{
+	width: 210px;
+	margin: 0px 0px 0px 5px;
+	background-color: #9fed9f;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+.labelContatoCnpj
+{
+	width: 40px;
+	display: block;
+	float: left;
+	text-align: right;
+	margin-right: 3px;
+	line-height: 24px;
+}
+
+#divContatoCpf
+{
+	display: none;
+	width: 190px;
+	margin: 0px 0px 0px 5px;
+	background-color: #c1d0e5;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+#ContatoObs
+{
+	width: 603px;
+}
+
+#ContatoCidadeId
+{
+	width: 250px;
+}
+
+.labelContatoCpf
+{
+	width: 40px;
+	display: block;
+	float: left;
+	text-align: right;
+	margin-right: 3px;
+	line-height: 24px;
+}
